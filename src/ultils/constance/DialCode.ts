@@ -1211,4 +1211,6 @@ const countryCode = [
   }
 ]
 const dialCode = countryCode.map(c => c.dial_code)
-export default dialCode;
+
+const cleanDialCode = dialCode.filter((item, index) => dialCode.indexOf(item) === index);
+export default cleanDialCode;
