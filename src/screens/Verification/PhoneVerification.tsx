@@ -60,7 +60,7 @@ const PhoneVerify = (props: any) => {
           {mess}
         </Typography>
       </Box>
-      <Button href="#text-buttons" color="primary" id={'resend-button'} onClick={reSendCode}>
+      <Button color="primary" id={'resend-button'} onClick={reSendCode}>
         RESEND CODE
       </Button>
 
